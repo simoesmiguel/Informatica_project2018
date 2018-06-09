@@ -5,38 +5,41 @@
         android:id="@+id/notifications"
         android:icon="@drawable/notifications"
         android:orderInCategory="1"
+        app:showAsAction="always"
         android:title="@string/Notifications"/>
 
     <item
         android:id="@+id/menu_report_address"
         android:icon="@drawable/report_address"
         android:orderInCategory="1"
+        app:showAsAction="always"
         android:title="@string/reportAddress"/>
 
     <item
         android:id="@+id/notifications_settings"
         android:icon="@drawable/notifications_settings"
         android:orderInCategory="1"
+        app:showAsAction="always"
         android:title="@string/notifications"/>
 
     <item
         android:id="@+id/addFriend"
         android:icon="@drawable/add_friend"
         android:orderInCategory="1"
+        app:showAsAction="always"
         android:title="@string/addFriend"/>
     <item
         android:id="@+id/menu_report"
         android:icon="@drawable/ic_report"
         android:orderInCategory="1"
-        app:showAsAction="ifRoom"
+        app:showAsAction="always"
         android:title="@string/publish"/>
 
     <item
         android:id="@+id/menu_mylocation"
         android:icon="@drawable/ic_mylocation"
         android:orderInCategory="1"
-        app:showAsAction="ifRoom"
+        app:showAsAction="always"
         android:title="@string/menuCurrentLoction"/>
-
 
 </menu>

@@ -648,7 +648,6 @@ public class MapActivity extends BaseActivity<UiActivityMapBinding, MapMvvm.View
 
                 // Placing a marker on the touched position
                 mMap.addMarker(markerOptions);
-                hasAllMeetingPoints = false;
 
             }
 
