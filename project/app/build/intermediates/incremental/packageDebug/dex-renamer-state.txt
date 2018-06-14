@@ -1,0 +1,7 @@
+#Thu Jun 14 00:09:49 BST 2018
+base.0=C\:\\Users\\SomeoneElse\\Desktop\\owntracks-18-05-2018\\android-master\\project\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_516bccde5198b16a64e0b8bc0ad69eecd9e6c016
+renamed.1=classes.dex
+renamed.0=classes2.dex
+file.1=C\:\\Users\\SomeoneElse\\Desktop\\owntracks-18-05-2018\\android-master\\project\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_12880ac8da854b56f2ae0fd1a5411c0f2d9413e3\\classes.dex
+base.1=C\:\\Users\\SomeoneElse\\Desktop\\owntracks-18-05-2018\\android-master\\project\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_12880ac8da854b56f2ae0fd1a5411c0f2d9413e3
+file.0=C\:\\Users\\SomeoneElse\\Desktop\\owntracks-18-05-2018\\android-master\\project\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_516bccde5198b16a64e0b8bc0ad69eecd9e6c016\\classes.dex

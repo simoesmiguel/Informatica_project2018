@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="C:\Users\SomeoneElse\Desktop\owntracks-18-05-2018\android-master\project\app\jniLibs\kalium-jni-1.0.0-SNAPSHOT.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="576566c09514e0e134350dea41b476e57703ab06">
+        <dex dex="C:\Users\SomeoneElse\Desktop\owntracks-18-05-2018\android-master\project\app\build\intermediates\transforms\dex\debug\folders\1000\2\kalium-jni-1.0.0-SNAPSHOT_522be5bf0a6962a7eb89e71f7f6dcf952603b985\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\SomeoneElse\Desktop\owntracks-18-05-2018\android-master\project\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="12920f9016b8b05acbc2af7cdc13cef6946fe7d3">
+        <dex dex="C:\Users\SomeoneElse\Desktop\owntracks-18-05-2018\android-master\project\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_516bccde5198b16a64e0b8bc0ad69eecd9e6c016\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\SomeoneElse\Desktop\owntracks-18-05-2018\android-master\project\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="27b20b94c8544492d388f5c55073f5f6fda64b12">
+        <dex dex="C:\Users\SomeoneElse\Desktop\owntracks-18-05-2018\android-master\project\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_12880ac8da854b56f2ae0fd1a5411c0f2d9413e3\classes.dex" />
+    </item>
+
+</items>

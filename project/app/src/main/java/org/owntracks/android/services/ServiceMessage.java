@@ -280,7 +280,7 @@ public class ServiceMessage implements ProxyableService, IncomingMessageProcesso
             // check if message.messageDestinationId != mymobile number
             String mymobileNumber= getMyMobileNumber();
             System.out.println("<ServiceMessage> MyMobileNumber: "+mymobileNumber);
-            if(mymobileNumber!=null && message.getMessageDestinationId()!=null && message.getMessageDestinationId().equals( mymobileNumber)) { //check if the user is the recipient of the message
+          //  if(mymobileNumber!=null && message.getMessageDestinationId()!=null && message.getMessageDestinationId().equals( mymobileNumber)) { //check if the user is the recipient of the message
                 switch (message.getMessageType()) {
                     case "coords":
                         App.getContactsRepo().update(message.getContactKey(), message);
@@ -354,13 +354,13 @@ public class ServiceMessage implements ProxyableService, IncomingMessageProcesso
                         }
                         break;
                 }
-            }else{
+             /*  }else{
 
                 if(message.getMessageType().equals("coords")){
                     App.getContactsRepo().update(message.getContactKey(), message);
                 }else
                     Log.v("<ServiceMessage> ","This message was not for me");
-            }
+            }*/
         }else
             App.getContactsRepo().update(message.getContactKey(), message);
 

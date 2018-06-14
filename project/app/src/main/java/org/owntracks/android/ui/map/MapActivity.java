@@ -1,6 +1,6 @@
 package org.owntracks.android.ui.map;
 
-import android.app.ActionBar;
+import android.app.Dialog;
 import android.app.PendingIntent;
 import android.content.ActivityNotFoundException;
 import android.content.DialogInterface;
@@ -8,6 +8,7 @@ import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.content.pm.ResolveInfo;
 import android.graphics.Color;
+import android.graphics.drawable.ColorDrawable;
 import android.net.Uri;
 import android.os.Build;
 import android.os.Bundle;
@@ -17,19 +18,20 @@ import android.support.annotation.RequiresApi;
 import android.support.design.widget.AppBarLayout;
 import android.support.design.widget.BottomSheetBehavior;
 import android.support.design.widget.CoordinatorLayout;
+import android.support.design.widget.TextInputEditText;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.widget.PopupMenu;
 import android.text.InputType;
-import android.util.Log;
 import android.view.Gravity;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
-import android.widget.ArrayAdapter;
+import android.widget.Button;
 import android.widget.EditText;
 import android.widget.LinearLayout;
-import android.widget.Spinner;
+import android.widget.SeekBar;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import com.google.android.gms.maps.CameraUpdateFactory;
@@ -61,7 +63,6 @@ import org.owntracks.android.ui.base.navigator.Navigator;
 
 import java.util.HashMap;
 import java.util.List;
-import java.util.Map;
 import java.util.WeakHashMap;
 
 import javax.inject.Inject;
@@ -97,8 +98,10 @@ public class MapActivity extends BaseActivity<UiActivityMapBinding, MapMvvm.View
     private boolean flagRefreshAll = false;
     private int mode = FLAG_ACTION_MODE_DEVICE;
     private Menu mMenu;
-    private boolean hasAllMeetingPoints=false;
+    private boolean hasAllMeetingPointsANDGeofences=false;
     private HashMap<String, double[]> allMeetingPoints;
+    private HashMap<String, double[]> allGeofences;
+
 
     // EVENT ENGINE ACTIONS
     private void queueActionModeDevice() {
@@ -263,8 +266,8 @@ public class MapActivity extends BaseActivity<UiActivityMapBinding, MapMvvm.View
             public void onClick(DialogInterface dialog, int which) {
                 System.out.println("<MapActivity> SAVING MEETING POINT \n name: "+meetingPointName+"\n Coords: "+meetingPointCoords);
                 hiddenIntentToSpecificAppProperly("justSaveMeetingPoint",meetingPointName+","+meetingPointCoords.split(",")[0]+","+meetingPointCoords.split(",")[1]);   // save it on cmiyc
-                addMeetingPoint(meetingPointName+","+name,new LatLng(Double.parseDouble(meetingPointCoords.split(",")[0]),Double.parseDouble(meetingPointCoords.split(",")[1])));   // add meetingPoint to map
-                //addMeetingPoint(meetingPointName+","+name,new LatLng(40.642518, -8.015533));
+                //addMeetingPoint(meetingPointName+","+name,new LatLng(Double.parseDouble(meetingPointCoords.split(",")[0]),Double.parseDouble(meetingPointCoords.split(",")[1])));   // add meetingPoint to map
+                addMeetingPoint(meetingPointName+","+name,new LatLng(38.761322, -9.162168));
             }
         });
         builder.setNegativeButton("DECLINE", new DialogInterface.OnClickListener() {
@@ -279,7 +282,7 @@ public class MapActivity extends BaseActivity<UiActivityMapBinding, MapMvvm.View
 
 
     //TODO
-    private void drawCircle(LatLng point){
+    private void drawCircle(LatLng point, int radius){
 
         // Instantiating CircleOptions to draw a circle around the marker
         CircleOptions circleOptions = new CircleOptions();
@@ -288,10 +291,10 @@ public class MapActivity extends BaseActivity<UiActivityMapBinding, MapMvvm.View
         circleOptions.center(point);
 
         // Radius of the circle
-        circleOptions.radius(30);
+        circleOptions.radius(radius);
 
         // Border color of the circle
-        circleOptions.strokeColor(Color.BLACK);
+        circleOptions.strokeColor(Color.BLUE);
 
         // Fill color of the circle
         circleOptions.fillColor(0x30ff0000);
@@ -398,11 +401,13 @@ public class MapActivity extends BaseActivity<UiActivityMapBinding, MapMvvm.View
             System.out.println("<<OwnTracks>> receiving geoHash on AlarmReceiver");
         }else if(intent.hasExtra("<CMIYC>goBackAfterSetGeoHashNotifications")){
             // just do anything
+        }else if(intent.hasExtra("<CMIYC>goBackAfterSaveGeofence")){
+            // just do anything
         }else if(intent.hasExtra("AllMeetingCoords")){
-            hasAllMeetingPoints=true;
+            hasAllMeetingPointsANDGeofences=true;
             allMeetingPoints = (HashMap<String, double[]>) intent.getSerializableExtra("AllMeetingCoords");
-            System.out.println("<MapActivity> RECEIVING ALL MEETING POINTS");
-
+            allGeofences = (HashMap<String, double[]>) intent.getSerializableExtra("AllZones");
+            System.out.println("<MapActivity> RECEIVING ALL MEETING POINTS AND GEOFENCES");
         }
         else{
             System.out.println("HANDELING ANOTHER INTENT ");
@@ -621,12 +626,12 @@ public class MapActivity extends BaseActivity<UiActivityMapBinding, MapMvvm.View
 
     public void addAllMarkers(){ // get all the meeting points from cmiyc and draw them on the map
 
-        if(hasAllMeetingPoints==false) {
+        if(hasAllMeetingPointsANDGeofences==false) {
             hiddenIntentToSpecificAppProperly("getAllMeetingPoints", "getAllMeetingPoints");
             System.out.println("<MAPACTIVITY> GETTING MEETING POINTS");
         }
         else {
-            System.out.println("<MAPACTIVITY> PRINTING MEETING POINTS");
+            System.out.println("<MAPACTIVITY> PRINTING MEETING POINTS AND GEOFENCES");
 
             for (String meetingPointName: allMeetingPoints.keySet() ){
                 LatLng latlng = new LatLng(allMeetingPoints.get(meetingPointName)[0],allMeetingPoints.get(meetingPointName)[1]);
@@ -648,14 +653,104 @@ public class MapActivity extends BaseActivity<UiActivityMapBinding, MapMvvm.View
 
                 // Placing a marker on the touched position
                 mMap.addMarker(markerOptions);
-                hasAllMeetingPoints = false;
 
             }
-
+            System.out.println("ALL GEOFENCES : "+allGeofences);
+            for (String geofenceName: allGeofences.keySet() ){
+                drawCircle(new LatLng(allGeofences.get(geofenceName)[0],allGeofences.get(geofenceName)[1]), (int) allGeofences.get(geofenceName)[2]);
+            }
             //LatLng[] latlng = {new LatLng(40.628460, -8.652742), new LatLng(40.632023, -8.654590)};
         }
 
     }
+
+    public void addGeofence(String geofenceName,String radius, LatLng latLng){
+        drawCircle(latLng,Integer.parseInt(radius));
+    }
+
+
+    public void startGeofenceDialogActivity(final LatLng latLng){
+        final Dialog dialog = new Dialog(this);
+        dialog.setContentView(R.layout.geofence_popup);
+        Button b  = (Button) dialog.findViewById(R.id.addGeofence);
+        TextView textClose = (TextView) dialog.findViewById(R.id.closepopup);
+        final TextInputEditText inputGeofenceName= (TextInputEditText) dialog.findViewById(R.id.inputGeofenceName);
+        final TextView seekBarProgress = (TextView) dialog.findViewById(R.id.seekBarProgress);
+
+        int radius=10;
+        textClose.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                dialog.dismiss();
+            }
+        });
+
+        final SeekBar sk= (SeekBar) dialog.findViewById(R.id.seekBarGeofence);
+        sk.setOnSeekBarChangeListener(new SeekBar.OnSeekBarChangeListener() {
+
+          @Override
+          public void onProgressChanged(SeekBar seekBar, int i, boolean b) {
+              seekBarProgress.setText(""+i);
+          }
+
+          @Override
+          public void onStartTrackingTouch(SeekBar seekBar) {
+
+          }
+
+          @Override
+          public void onStopTrackingTouch(SeekBar seekBar) {
+
+          }
+        });
+
+        dialog.getWindow().setBackgroundDrawable(new ColorDrawable(Color.TRANSPARENT));
+        dialog.show();
+
+        b.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                dialog.dismiss();
+                addGeofence(inputGeofenceName.getText().toString(),seekBarProgress.getText().toString(),latLng); //draw geofence on map
+
+                //save geofence on CMIYC
+                Intent sendIntent = new Intent();
+                sendIntent.setAction(Intent.ACTION_SEND);
+                sendIntent.setType("text/plain");
+                startSpecificAppProperly(sendIntent,"saveGeofence",inputGeofenceName.getText().toString()+","+latLng.latitude+","+latLng.longitude+","+seekBarProgress.getText().toString());
+            }
+        });
+
+
+    }
+
+    public void ChooseGeofenceOrMeetingPoint(final LatLng latLng){
+        AlertDialog.Builder builder = new AlertDialog.Builder(this);
+        builder.setTitle("Notification");
+        builder.setMessage("Add a new Meeting Point or a new Geofence?");
+        final EditText input = new EditText(this);
+
+        // Specify the type of input expected; this, for example, sets the input as a password, and will mask the text
+
+
+        // Set up the buttons
+        builder.setPositiveButton("Geofence", new DialogInterface.OnClickListener() {
+            @RequiresApi(api = Build.VERSION_CODES.KITKAT)
+            @Override
+            public void onClick(DialogInterface dialog, int which) {
+                startGeofenceDialogActivity(latLng);
+            }
+        });
+        builder.setNegativeButton("MeetingPoint", new DialogInterface.OnClickListener() {
+            @Override
+            public void onClick(DialogInterface dialogInterface, int i) {
+                showNotification(latLng);
+            }
+        });
+        builder.show();
+
+    }
+
 
     public void showNotification(final LatLng latLng){
         AlertDialog.Builder builder = new AlertDialog.Builder(this);
@@ -763,10 +858,10 @@ public class MapActivity extends BaseActivity<UiActivityMapBinding, MapMvvm.View
 
     @Override
     public void onMapClick(LatLng latLng) {
-        System.out.println("<MapActivity> Map clicked !!");
         queueActionModeFree();
         viewModel.onMapClick();
-        showNotification(latLng);
+        ChooseGeofenceOrMeetingPoint(latLng);
+        //showNotification(latLng);
 
     }
 

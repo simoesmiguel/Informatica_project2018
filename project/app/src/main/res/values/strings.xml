@@ -53,6 +53,8 @@
     <string name="save">"Save"</string>
     <string name="cancel">"Cancel"</string>
     <string name="preferencesCleanSessionEnabled">Clean Session</string>
+    <string name="GeofenceName">Geofence Name</string>
+    <string name="GeofenceRadius">Radius (m)</string>
     <string name="publish">Report</string>
     <string name="addFriend">add Friend</string>
     <string name="reportAddress">Report Address</string>
@@ -73,7 +75,7 @@
     <string name="description">Description</string>
     <string name="latitude">Latitude</string>
     <string name="longitude">Longitude</string>
-    <string name="radius">Radius</string>
+    <string name="radius">Radius (m)</string>
     <string name="addWaypoint">Add waypoint</string>
     <string name="export">Export</string>
     <string name="exportConfiguration">Export</string>

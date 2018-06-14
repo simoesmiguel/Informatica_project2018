@@ -1,0 +1,499 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\SomeoneElse\Desktop\owntracks-18-05-2018\android-master\project\app\src\main\AndroidManifest.xml:2:1-253:12
+	package
+		ADDED from C:\Users\SomeoneElse\Desktop\owntracks-18-05-2018\android-master\project\app\src\main\AndroidManifest.xml:4:5-36
+		INJECTED from C:\Users\SomeoneElse\Desktop\owntracks-18-05-2018\android-master\project\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\SomeoneElse\Desktop\owntracks-18-05-2018\android-master\project\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\SomeoneElse\Desktop\owntracks-18-05-2018\android-master\project\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\SomeoneElse\Desktop\owntracks-18-05-2018\android-master\project\app\src\main\AndroidManifest.xml
+	xmlns:tools
+		ADDED from C:\Users\SomeoneElse\Desktop\owntracks-18-05-2018\android-master\project\app\src\main\AndroidManifest.xml:3:5-51
+	xmlns:android
+		ADDED from C:\Users\SomeoneElse\Desktop\owntracks-18-05-2018\android-master\project\app\src\main\AndroidManifest.xml:2:11-69
+	android:versionCode
+		INJECTED from C:\Users\SomeoneElse\Desktop\owntracks-18-05-2018\android-master\project\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\SomeoneElse\Desktop\owntracks-18-05-2018\android-master\project\app\src\main\AndroidManifest.xml
+uses-feature#android.hardware.bluetooth_le
+ADDED from C:\Users\SomeoneElse\Desktop\owntracks-18-05-2018\android-master\project\app\src\main\AndroidManifest.xml:6:5-8:36
+	android:required
+		ADDED from C:\Users\SomeoneElse\Desktop\owntracks-18-05-2018\android-master\project\app\src\main\AndroidManifest.xml:8:9-33
+	android:name
+		ADDED from C:\Users\SomeoneElse\Desktop\owntracks-18-05-2018\android-master\project\app\src\main\AndroidManifest.xml:7:9-53
+uses-feature#0x00020000
+ADDED from C:\Users\SomeoneElse\Desktop\owntracks-18-05-2018\android-master\project\app\src\main\AndroidManifest.xml:9:5-11:35
+MERGED from [com.google.android.gms:play-services-maps:10.2.6] C:\Users\SomeoneElse\.android\build-cache\6b558091291eb0c5b3d23e63f97119429269010a\output\AndroidManifest.xml:21:5-77
+	android:glEsVersion
+		ADDED from C:\Users\SomeoneElse\Desktop\owntracks-18-05-2018\android-master\project\app\src\main\AndroidManifest.xml:10:9-41
+	android:required
+		ADDED from C:\Users\SomeoneElse\Desktop\owntracks-18-05-2018\android-master\project\app\src\main\AndroidManifest.xml:11:9-32
+uses-feature#android.hardware.location.gps
+ADDED from C:\Users\SomeoneElse\Desktop\owntracks-18-05-2018\android-master\project\app\src\main\AndroidManifest.xml:12:5-14:35
+	android:required
+		ADDED from C:\Users\SomeoneElse\Desktop\owntracks-18-05-2018\android-master\project\app\src\main\AndroidManifest.xml:14:9-32
+	android:name
+		ADDED from C:\Users\SomeoneElse\Desktop\owntracks-18-05-2018\android-master\project\app\src\main\AndroidManifest.xml:13:9-53
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\SomeoneElse\Desktop\owntracks-18-05-2018\android-master\project\app\src\main\AndroidManifest.xml:16:5-67
+MERGED from [com.google.android.gms:play-services-gcm:10.2.6] C:\Users\SomeoneElse\.android\build-cache\05472c4ef47c55f918a4c89f5cb1a1853943e705\output\AndroidManifest.xml:21:5-66
+MERGED from [com.google.android.gms:play-services-iid:10.2.6] C:\Users\SomeoneElse\.android\build-cache\5a45df476f74f29b1c6a3927d4ff50a44a941aa5\output\AndroidManifest.xml:21:5-66
+MERGED from [com.google.android.gms:play-services-maps:10.2.6] C:\Users\SomeoneElse\.android\build-cache\6b558091291eb0c5b3d23e63f97119429269010a\output\AndroidManifest.xml:20:5-66
+	android:name
+		ADDED from C:\Users\SomeoneElse\Desktop\owntracks-18-05-2018\android-master\project\app\src\main\AndroidManifest.xml:16:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from C:\Users\SomeoneElse\Desktop\owntracks-18-05-2018\android-master\project\app\src\main\AndroidManifest.xml:18:5-79
+MERGED from [com.google.android.gms:play-services-maps:10.2.6] C:\Users\SomeoneElse\.android\build-cache\6b558091291eb0c5b3d23e63f97119429269010a\output\AndroidManifest.xml:19:5-78
+	android:name
+		ADDED from C:\Users\SomeoneElse\Desktop\owntracks-18-05-2018\android-master\project\app\src\main\AndroidManifest.xml:18:22-76
+uses-permission#android.permission.WAKE_LOCK
+ADDED from C:\Users\SomeoneElse\Desktop\owntracks-18-05-2018\android-master\project\app\src\main\AndroidManifest.xml:20:5-68
+	android:name
+		ADDED from C:\Users\SomeoneElse\Desktop\owntracks-18-05-2018\android-master\project\app\src\main\AndroidManifest.xml:20:22-65
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from C:\Users\SomeoneElse\Desktop\owntracks-18-05-2018\android-master\project\app\src\main\AndroidManifest.xml:22:5-81
+MERGED from [org.altbeacon:android-beacon-library:2.10] C:\Users\SomeoneElse\.android\build-cache\4bc8ecc87432ad16d06e83f0272cde515f2986e8\output\AndroidManifest.xml:17:5-81
+	android:name
+		ADDED from C:\Users\SomeoneElse\Desktop\owntracks-18-05-2018\android-master\project\app\src\main\AndroidManifest.xml:22:22-78
+uses-permission#android.permission.BLUETOOTH
+ADDED from C:\Users\SomeoneElse\Desktop\owntracks-18-05-2018\android-master\project\app\src\main\AndroidManifest.xml:24:5-68
+MERGED from [org.altbeacon:android-beacon-library:2.10] C:\Users\SomeoneElse\.android\build-cache\4bc8ecc87432ad16d06e83f0272cde515f2986e8\output\AndroidManifest.xml:11:5-13:36
+	android:required
+		ADDED from [org.altbeacon:android-beacon-library:2.10] C:\Users\SomeoneElse\.android\build-cache\4bc8ecc87432ad16d06e83f0272cde515f2986e8\output\AndroidManifest.xml:13:9-33
+	android:name
+		ADDED from C:\Users\SomeoneElse\Desktop\owntracks-18-05-2018\android-master\project\app\src\main\AndroidManifest.xml:24:22-65
+uses-permission#android.permission.BLUETOOTH_ADMIN
+ADDED from C:\Users\SomeoneElse\Desktop\owntracks-18-05-2018\android-master\project\app\src\main\AndroidManifest.xml:26:5-74
+MERGED from [org.altbeacon:android-beacon-library:2.10] C:\Users\SomeoneElse\.android\build-cache\4bc8ecc87432ad16d06e83f0272cde515f2986e8\output\AndroidManifest.xml:14:5-16:36
+	android:required
+		ADDED from [org.altbeacon:android-beacon-library:2.10] C:\Users\SomeoneElse\.android\build-cache\4bc8ecc87432ad16d06e83f0272cde515f2986e8\output\AndroidManifest.xml:16:9-33
+	android:name
+		ADDED from C:\Users\SomeoneElse\Desktop\owntracks-18-05-2018\android-master\project\app\src\main\AndroidManifest.xml:26:22-71
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from C:\Users\SomeoneElse\Desktop\owntracks-18-05-2018\android-master\project\app\src\main\AndroidManifest.xml:28:5-80
+	android:name
+		ADDED from C:\Users\SomeoneElse\Desktop\owntracks-18-05-2018\android-master\project\app\src\main\AndroidManifest.xml:28:22-77
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from C:\Users\SomeoneElse\Desktop\owntracks-18-05-2018\android-master\project\app\src\main\AndroidManifest.xml:31:5-33:31
+	tools:node
+		ADDED from C:\Users\SomeoneElse\Desktop\owntracks-18-05-2018\android-master\project\app\src\main\AndroidManifest.xml:33:9-28
+	android:name
+		ADDED from C:\Users\SomeoneElse\Desktop\owntracks-18-05-2018\android-master\project\app\src\main\AndroidManifest.xml:32:9-65
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from C:\Users\SomeoneElse\Desktop\owntracks-18-05-2018\android-master\project\app\src\main\AndroidManifest.xml:35:5-79
+	android:name
+		ADDED from C:\Users\SomeoneElse\Desktop\owntracks-18-05-2018\android-master\project\app\src\main\AndroidManifest.xml:35:22-76
+uses-permission#com.google.android.providers.gsf.permission.READ_GSERVICES
+ADDED from C:\Users\SomeoneElse\Desktop\owntracks-18-05-2018\android-master\project\app\src\main\AndroidManifest.xml:40:5-98
+	android:name
+		ADDED from C:\Users\SomeoneElse\Desktop\owntracks-18-05-2018\android-master\project\app\src\main\AndroidManifest.xml:40:22-95
+application
+ADDED from C:\Users\SomeoneElse\Desktop\owntracks-18-05-2018\android-master\project\app\src\main\AndroidManifest.xml:42:5-251:19
+MERGED from [com.google.android.gms:play-services-gcm:10.2.6] C:\Users\SomeoneElse\.android\build-cache\05472c4ef47c55f918a4c89f5cb1a1853943e705\output\AndroidManifest.xml:23:5-19
+MERGED from [com.google.android.gms:play-services-iid:10.2.6] C:\Users\SomeoneElse\.android\build-cache\5a45df476f74f29b1c6a3927d4ff50a44a941aa5\output\AndroidManifest.xml:23:5-19
+MERGED from [com.google.android.gms:play-services-location:10.2.6] C:\Users\SomeoneElse\.android\build-cache\b7590901db224bd28e298200d18d80819917fd95\output\AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-places:10.2.6] C:\Users\SomeoneElse\.android\build-cache\49eb15ab96e8fc28b458b390c64dc985ca1b08cb\output\AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-maps:10.2.6] C:\Users\SomeoneElse\.android\build-cache\6b558091291eb0c5b3d23e63f97119429269010a\output\AndroidManifest.xml:24:5-19
+MERGED from [com.google.android.gms:play-services-base:10.2.6] C:\Users\SomeoneElse\.android\build-cache\9a54b704f469f2aa0144060f9faac43c1a22965d\output\AndroidManifest.xml:18:5-20:19
+MERGED from [com.google.android.gms:play-services-tasks:10.2.6] C:\Users\SomeoneElse\.android\build-cache\547c57bc9f78bfa1f16b6a56f554dd6391b05277\output\AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-basement:10.2.6] C:\Users\SomeoneElse\.android\build-cache\f0da2b0043ef965f2a41f91c7cdf033cbb8c003a\output\AndroidManifest.xml:19:5-21:19
+MERGED from [org.altbeacon:android-beacon-library:2.10] C:\Users\SomeoneElse\.android\build-cache\4bc8ecc87432ad16d06e83f0272cde515f2986e8\output\AndroidManifest.xml:21:5-40:19
+MERGED from [com.jakewharton.timber:timber:4.1.2] C:\Users\SomeoneElse\.android\build-cache\e69855b3fd6f26d7b15ca613a1c85f7b756bc333\output\AndroidManifest.xml:8:5-20
+MERGED from [com.afollestad.material-dialogs:commons:0.9.4.5] C:\Users\SomeoneElse\.android\build-cache\49cf2d419797faca630d71a51905626549593ab2\output\AndroidManifest.xml:12:5-20
+MERGED from [com.afollestad.material-dialogs:core:0.9.4.5] C:\Users\SomeoneElse\.android\build-cache\6a3247a295727aa1132866fe23e8fae94b9005ed\output\AndroidManifest.xml:13:5-20
+MERGED from [com.android.support:support-v13:25.3.1] C:\Users\SomeoneElse\.android\build-cache\fe1422fd71bb803466da6ab437eefb394c1a51ef\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:design:25.3.1] C:\Users\SomeoneElse\.android\build-cache\ae11c9c902daf92d2f94cec23099d92d05fab979\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\SomeoneElse\.android\build-cache\7598df5d54b3edb986367fa4c4205e83ba950ceb\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\SomeoneElse\.android\build-cache\449aecad067c167d454488c410d70bb2cd7d23a8\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\SomeoneElse\.android\build-cache\31ef5cb2dbaf154a54746c0096e5bbfd56eaaad2\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:transition:25.3.1] C:\Users\SomeoneElse\.android\build-cache\eb23479a0f6439ee5932e717e42840e1efd326ce\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\SomeoneElse\.android\build-cache\50b915cc5cff50aaa0e6444e7321c0ccfc89e4c4\output\AndroidManifest.xml:9:5-20
+MERGED from [com.github.clans:fab:1.6.4] C:\Users\SomeoneElse\.android\build-cache\f393847f360370fe71491382ad5546701e267fe8\output\AndroidManifest.xml:12:5-20
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\SomeoneElse\.android\build-cache\7d1b03b23e7a72cae127282e85e675b418d617f0\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\SomeoneElse\.android\build-cache\204dcd2206163b031055a979794c15812d032864\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\SomeoneElse\.android\build-cache\c53a9b2656a5980c8d34e87e41204744e6c1511d\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\SomeoneElse\.android\build-cache\de0a13e2dd71eede4a32e81643290103edf506a6\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\SomeoneElse\.android\build-cache\d875e492fee8a0f9db2a68739555182da8962d51\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\SomeoneElse\.android\build-cache\e49cb8d591c5c856b36c90b61c0fddf33662f18a\output\AndroidManifest.xml:29:5-20
+	android:label
+		ADDED from C:\Users\SomeoneElse\Desktop\owntracks-18-05-2018\android-master\project\app\src\main\AndroidManifest.xml:47:9-41
+	android:hardwareAccelerated
+		ADDED from C:\Users\SomeoneElse\Desktop\owntracks-18-05-2018\android-master\project\app\src\main\AndroidManifest.xml:45:9-43
+	android:allowBackup
+		ADDED from C:\Users\SomeoneElse\Desktop\owntracks-18-05-2018\android-master\project\app\src\main\AndroidManifest.xml:44:9-35
+	android:icon
+		ADDED from C:\Users\SomeoneElse\Desktop\owntracks-18-05-2018\android-master\project\app\src\main\AndroidManifest.xml:46:9-45
+	android:networkSecurityConfig
+		ADDED from C:\Users\SomeoneElse\Desktop\owntracks-18-05-2018\android-master\project\app\src\main\AndroidManifest.xml:48:9-69
+	android:theme
+		ADDED from C:\Users\SomeoneElse\Desktop\owntracks-18-05-2018\android-master\project\app\src\main\AndroidManifest.xml:49:9-47
+	android:name
+		ADDED from C:\Users\SomeoneElse\Desktop\owntracks-18-05-2018\android-master\project\app\src\main\AndroidManifest.xml:43:9-28
+receiver#org.owntracks.android.ui.map.AlarmReceiver
+ADDED from C:\Users\SomeoneElse\Desktop\owntracks-18-05-2018\android-master\project\app\src\main\AndroidManifest.xml:50:9-56:20
+	android:name
+		ADDED from C:\Users\SomeoneElse\Desktop\owntracks-18-05-2018\android-master\project\app\src\main\AndroidManifest.xml:50:19-55
+intent-filter#android.intent.action.VIEW
+ADDED from C:\Users\SomeoneElse\Desktop\owntracks-18-05-2018\android-master\project\app\src\main\AndroidManifest.xml:51:13-55:29
+action#android.intent.action.VIEW
+ADDED from C:\Users\SomeoneElse\Desktop\owntracks-18-05-2018\android-master\project\app\src\main\AndroidManifest.xml:52:17-69
+	android:name
+		ADDED from C:\Users\SomeoneElse\Desktop\owntracks-18-05-2018\android-master\project\app\src\main\AndroidManifest.xml:52:25-66
+data
+ADDED from C:\Users\SomeoneElse\Desktop\owntracks-18-05-2018\android-master\project\app\src\main\AndroidManifest.xml:54:17-51
+	android:scheme
+		ADDED from C:\Users\SomeoneElse\Desktop\owntracks-18-05-2018\android-master\project\app\src\main\AndroidManifest.xml:54:23-48
+meta-data#com.google.android.geo.API_KEY
+ADDED from C:\Users\SomeoneElse\Desktop\owntracks-18-05-2018\android-master\project\app\src\main\AndroidManifest.xml:58:9-60:71
+	android:value
+		ADDED from C:\Users\SomeoneElse\Desktop\owntracks-18-05-2018\android-master\project\app\src\main\AndroidManifest.xml:60:13-68
+	android:name
+		ADDED from C:\Users\SomeoneElse\Desktop\owntracks-18-05-2018\android-master\project\app\src\main\AndroidManifest.xml:59:13-58
+meta-data#android.support.PARENT_ACTIVITY
+ADDED from C:\Users\SomeoneElse\Desktop\owntracks-18-05-2018\android-master\project\app\src\main\AndroidManifest.xml:61:9-63:51
+	android:value
+		ADDED from C:\Users\SomeoneElse\Desktop\owntracks-18-05-2018\android-master\project\app\src\main\AndroidManifest.xml:63:13-48
+	android:name
+		ADDED from C:\Users\SomeoneElse\Desktop\owntracks-18-05-2018\android-master\project\app\src\main\AndroidManifest.xml:62:13-59
+activity#org.owntracks.android.activities.ActivityRegions
+ADDED from C:\Users\SomeoneElse\Desktop\owntracks-18-05-2018\android-master\project\app\src\main\AndroidManifest.xml:65:9-68:46
+	android:label
+		ADDED from C:\Users\SomeoneElse\Desktop\owntracks-18-05-2018\android-master\project\app\src\main\AndroidManifest.xml:67:13-59
+	android:launchMode
+		ADDED from C:\Users\SomeoneElse\Desktop\owntracks-18-05-2018\android-master\project\app\src\main\AndroidManifest.xml:68:13-43
+	android:name
+		ADDED from C:\Users\SomeoneElse\Desktop\owntracks-18-05-2018\android-master\project\app\src\main\AndroidManifest.xml:66:13-55
+activity#org.owntracks.android.activities.ActivityRegion
+ADDED from C:\Users\SomeoneElse\Desktop\owntracks-18-05-2018\android-master\project\app\src\main\AndroidManifest.xml:69:9-76:20
+	android:label
+		ADDED from C:\Users\SomeoneElse\Desktop\owntracks-18-05-2018\android-master\project\app\src\main\AndroidManifest.xml:71:13-58
+	android:parentActivityName
+		ADDED from C:\Users\SomeoneElse\Desktop\owntracks-18-05-2018\android-master\project\app\src\main\AndroidManifest.xml:72:13-69
+	android:name
+		ADDED from C:\Users\SomeoneElse\Desktop\owntracks-18-05-2018\android-master\project\app\src\main\AndroidManifest.xml:70:13-54
+activity#org.owntracks.android.activities.ActivityPreferences
+ADDED from C:\Users\SomeoneElse\Desktop\owntracks-18-05-2018\android-master\project\app\src\main\AndroidManifest.xml:77:9-81:64
+	android:label
+		ADDED from C:\Users\SomeoneElse\Desktop\owntracks-18-05-2018\android-master\project\app\src\main\AndroidManifest.xml:80:13-63
+	android:parentActivityName
+		ADDED from C:\Users\SomeoneElse\Desktop\owntracks-18-05-2018\android-master\project\app\src\main\AndroidManifest.xml:81:13-61
+	android:hardwareAccelerated
+		ADDED from C:\Users\SomeoneElse\Desktop\owntracks-18-05-2018\android-master\project\app\src\main\AndroidManifest.xml:79:13-47
+	android:name
+		ADDED from C:\Users\SomeoneElse\Desktop\owntracks-18-05-2018\android-master\project\app\src\main\AndroidManifest.xml:78:13-59
+activity#org.owntracks.android.activities.ActivityPreferencesConnection
+ADDED from C:\Users\SomeoneElse\Desktop\owntracks-18-05-2018\android-master\project\app\src\main\AndroidManifest.xml:82:9-86:52
+	android:screenOrientation
+		ADDED from C:\Users\SomeoneElse\Desktop\owntracks-18-05-2018\android-master\project\app\src\main\AndroidManifest.xml:86:13-49
+	android:label
+		ADDED from C:\Users\SomeoneElse\Desktop\owntracks-18-05-2018\android-master\project\app\src\main\AndroidManifest.xml:85:13-54
+	android:configChanges
+		ADDED from C:\Users\SomeoneElse\Desktop\owntracks-18-05-2018\android-master\project\app\src\main\AndroidManifest.xml:84:13-48
+	android:name
+		ADDED from C:\Users\SomeoneElse\Desktop\owntracks-18-05-2018\android-master\project\app\src\main\AndroidManifest.xml:83:13-69
+activity#org.owntracks.android.ui.configuration.ConfigurationActivity
+ADDED from C:\Users\SomeoneElse\Desktop\owntracks-18-05-2018\android-master\project\app\src\main\AndroidManifest.xml:87:9-95:20
+	android:label
+		ADDED from C:\Users\SomeoneElse\Desktop\owntracks-18-05-2018\android-master\project\app\src\main\AndroidManifest.xml:90:13-60
+	android:parentActivityName
+		ADDED from C:\Users\SomeoneElse\Desktop\owntracks-18-05-2018\android-master\project\app\src\main\AndroidManifest.xml:91:13-73
+	android:configChanges
+		ADDED from C:\Users\SomeoneElse\Desktop\owntracks-18-05-2018\android-master\project\app\src\main\AndroidManifest.xml:89:13-48
+	android:name
+		ADDED from C:\Users\SomeoneElse\Desktop\owntracks-18-05-2018\android-master\project\app\src\main\AndroidManifest.xml:88:13-67
+activity#org.owntracks.android.ui.load.LoadActivity
+ADDED from C:\Users\SomeoneElse\Desktop\owntracks-18-05-2018\android-master\project\app\src\main\AndroidManifest.xml:96:9-154:20
+	android:label
+		ADDED from C:\Users\SomeoneElse\Desktop\owntracks-18-05-2018\android-master\project\app\src\main\AndroidManifest.xml:99:13-56
+	android:launchMode
+		ADDED from C:\Users\SomeoneElse\Desktop\owntracks-18-05-2018\android-master\project\app\src\main\AndroidManifest.xml:100:13-44
+	android:configChanges
+		ADDED from C:\Users\SomeoneElse\Desktop\owntracks-18-05-2018\android-master\project\app\src\main\AndroidManifest.xml:98:13-48
+	android:name
+		ADDED from C:\Users\SomeoneElse\Desktop\owntracks-18-05-2018\android-master\project\app\src\main\AndroidManifest.xml:97:13-49
+intent-filter#android.intent.action.VIEW+android.intent.category.DEFAULT
+ADDED from C:\Users\SomeoneElse\Desktop\owntracks-18-05-2018\android-master\project\app\src\main\AndroidManifest.xml:103:13-113:29
+category#android.intent.category.DEFAULT
+ADDED from C:\Users\SomeoneElse\Desktop\owntracks-18-05-2018\android-master\project\app\src\main\AndroidManifest.xml:106:17-76
+	android:name
+		ADDED from C:\Users\SomeoneElse\Desktop\owntracks-18-05-2018\android-master\project\app\src\main\AndroidManifest.xml:106:27-73
+provider#android.support.v4.content.FileProvider
+ADDED from C:\Users\SomeoneElse\Desktop\owntracks-18-05-2018\android-master\project\app\src\main\AndroidManifest.xml:156:9-164:20
+	android:authorities
+		ADDED from C:\Users\SomeoneElse\Desktop\owntracks-18-05-2018\android-master\project\app\src\main\AndroidManifest.xml:158:13-69
+	android:grantUriPermissions
+		ADDED from C:\Users\SomeoneElse\Desktop\owntracks-18-05-2018\android-master\project\app\src\main\AndroidManifest.xml:160:13-47
+	android:exported
+		ADDED from C:\Users\SomeoneElse\Desktop\owntracks-18-05-2018\android-master\project\app\src\main\AndroidManifest.xml:159:13-37
+	android:name
+		ADDED from C:\Users\SomeoneElse\Desktop\owntracks-18-05-2018\android-master\project\app\src\main\AndroidManifest.xml:157:13-67
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from C:\Users\SomeoneElse\Desktop\owntracks-18-05-2018\android-master\project\app\src\main\AndroidManifest.xml:161:13-163:53
+	android:resource
+		ADDED from C:\Users\SomeoneElse\Desktop\owntracks-18-05-2018\android-master\project\app\src\main\AndroidManifest.xml:163:17-50
+	android:name
+		ADDED from C:\Users\SomeoneElse\Desktop\owntracks-18-05-2018\android-master\project\app\src\main\AndroidManifest.xml:162:17-67
+service#org.owntracks.android.services.ServiceMessageHttpGcm
+ADDED from C:\Users\SomeoneElse\Desktop\owntracks-18-05-2018\android-master\project\app\src\main\AndroidManifest.xml:166:9-173:19
+	android:exported
+		ADDED from C:\Users\SomeoneElse\Desktop\owntracks-18-05-2018\android-master\project\app\src\main\AndroidManifest.xml:168:13-36
+	android:permission
+		ADDED from C:\Users\SomeoneElse\Desktop\owntracks-18-05-2018\android-master\project\app\src\main\AndroidManifest.xml:169:13-93
+	android:name
+		ADDED from C:\Users\SomeoneElse\Desktop\owntracks-18-05-2018\android-master\project\app\src\main\AndroidManifest.xml:167:13-59
+intent-filter#com.google.android.gms.gcm.ACTION_TASK_READY
+ADDED from C:\Users\SomeoneElse\Desktop\owntracks-18-05-2018\android-master\project\app\src\main\AndroidManifest.xml:170:13-172:29
+action#com.google.android.gms.gcm.ACTION_TASK_READY
+ADDED from C:\Users\SomeoneElse\Desktop\owntracks-18-05-2018\android-master\project\app\src\main\AndroidManifest.xml:171:17-87
+	android:name
+		ADDED from C:\Users\SomeoneElse\Desktop\owntracks-18-05-2018\android-master\project\app\src\main\AndroidManifest.xml:171:25-84
+service#org.owntracks.android.services.ServiceProxy
+ADDED from C:\Users\SomeoneElse\Desktop\owntracks-18-05-2018\android-master\project\app\src\main\AndroidManifest.xml:174:9-177:40
+	android:enabled
+		ADDED from C:\Users\SomeoneElse\Desktop\owntracks-18-05-2018\android-master\project\app\src\main\AndroidManifest.xml:176:13-35
+	android:exported
+		ADDED from C:\Users\SomeoneElse\Desktop\owntracks-18-05-2018\android-master\project\app\src\main\AndroidManifest.xml:177:13-37
+	android:name
+		ADDED from C:\Users\SomeoneElse\Desktop\owntracks-18-05-2018\android-master\project\app\src\main\AndroidManifest.xml:175:13-50
+receiver#org.owntracks.android.support.receiver.BootCompleteReceiver
+ADDED from C:\Users\SomeoneElse\Desktop\owntracks-18-05-2018\android-master\project\app\src\main\AndroidManifest.xml:179:9-186:20
+	android:enabled
+		ADDED from C:\Users\SomeoneElse\Desktop\owntracks-18-05-2018\android-master\project\app\src\main\AndroidManifest.xml:181:13-35
+	android:exported
+		ADDED from C:\Users\SomeoneElse\Desktop\owntracks-18-05-2018\android-master\project\app\src\main\AndroidManifest.xml:182:13-36
+	android:name
+		ADDED from C:\Users\SomeoneElse\Desktop\owntracks-18-05-2018\android-master\project\app\src\main\AndroidManifest.xml:180:13-66
+intent-filter#android.intent.action.BOOT_COMPLETED
+ADDED from C:\Users\SomeoneElse\Desktop\owntracks-18-05-2018\android-master\project\app\src\main\AndroidManifest.xml:183:13-185:29
+action#android.intent.action.BOOT_COMPLETED
+ADDED from C:\Users\SomeoneElse\Desktop\owntracks-18-05-2018\android-master\project\app\src\main\AndroidManifest.xml:184:17-79
+	android:name
+		ADDED from C:\Users\SomeoneElse\Desktop\owntracks-18-05-2018\android-master\project\app\src\main\AndroidManifest.xml:184:25-76
+receiver#org.owntracks.android.support.receiver.ReceiverProxy
+ADDED from C:\Users\SomeoneElse\Desktop\owntracks-18-05-2018\android-master\project\app\src\main\AndroidManifest.xml:187:9-196:20
+	android:enabled
+		ADDED from C:\Users\SomeoneElse\Desktop\owntracks-18-05-2018\android-master\project\app\src\main\AndroidManifest.xml:189:13-35
+	android:name
+		ADDED from C:\Users\SomeoneElse\Desktop\owntracks-18-05-2018\android-master\project\app\src\main\AndroidManifest.xml:188:13-59
+intent-filter#org.owntracks.android.RECEIVER_ACTION_GEOFENCE_TRANSITION+org.owntracks.android.RECEIVER_ACTION_PING+org.owntracks.android.RECEIVER_ACTION_PUBLISH_LASTKNOWN+org.owntracks.android.RECEIVER_ACTION_RECONNECT
+ADDED from C:\Users\SomeoneElse\Desktop\owntracks-18-05-2018\android-master\project\app\src\main\AndroidManifest.xml:190:13-195:29
+action#org.owntracks.android.RECEIVER_ACTION_RECONNECT
+ADDED from C:\Users\SomeoneElse\Desktop\owntracks-18-05-2018\android-master\project\app\src\main\AndroidManifest.xml:191:17-90
+	android:name
+		ADDED from C:\Users\SomeoneElse\Desktop\owntracks-18-05-2018\android-master\project\app\src\main\AndroidManifest.xml:191:25-87
+action#org.owntracks.android.RECEIVER_ACTION_PING
+ADDED from C:\Users\SomeoneElse\Desktop\owntracks-18-05-2018\android-master\project\app\src\main\AndroidManifest.xml:192:17-85
+	android:name
+		ADDED from C:\Users\SomeoneElse\Desktop\owntracks-18-05-2018\android-master\project\app\src\main\AndroidManifest.xml:192:25-82
+action#org.owntracks.android.RECEIVER_ACTION_GEOFENCE_TRANSITION
+ADDED from C:\Users\SomeoneElse\Desktop\owntracks-18-05-2018\android-master\project\app\src\main\AndroidManifest.xml:193:17-100
+	android:name
+		ADDED from C:\Users\SomeoneElse\Desktop\owntracks-18-05-2018\android-master\project\app\src\main\AndroidManifest.xml:193:25-97
+action#org.owntracks.android.RECEIVER_ACTION_PUBLISH_LASTKNOWN
+ADDED from C:\Users\SomeoneElse\Desktop\owntracks-18-05-2018\android-master\project\app\src\main\AndroidManifest.xml:194:17-98
+	android:name
+		ADDED from C:\Users\SomeoneElse\Desktop\owntracks-18-05-2018\android-master\project\app\src\main\AndroidManifest.xml:194:25-95
+receiver#org.owntracks.android.ui.map.GeofenceReceiver
+ADDED from C:\Users\SomeoneElse\Desktop\owntracks-18-05-2018\android-master\project\app\src\main\AndroidManifest.xml:197:9-207:20
+	android:enabled
+		ADDED from C:\Users\SomeoneElse\Desktop\owntracks-18-05-2018\android-master\project\app\src\main\AndroidManifest.xml:199:13-35
+	android:exported
+		ADDED from C:\Users\SomeoneElse\Desktop\owntracks-18-05-2018\android-master\project\app\src\main\AndroidManifest.xml:200:13-37
+	android:name
+		ADDED from C:\Users\SomeoneElse\Desktop\owntracks-18-05-2018\android-master\project\app\src\main\AndroidManifest.xml:198:13-52
+intent-filter#ACTION_RECEIVE_GEOFENCE+android.intent.action.BOOT_COMPLETED+android.location.MODE_CHANGED+android.location.PROVIDERS_CHANGED
+ADDED from C:\Users\SomeoneElse\Desktop\owntracks-18-05-2018\android-master\project\app\src\main\AndroidManifest.xml:201:13-206:29
+action#ACTION_RECEIVE_GEOFENCE
+ADDED from C:\Users\SomeoneElse\Desktop\owntracks-18-05-2018\android-master\project\app\src\main\AndroidManifest.xml:202:17-66
+	android:name
+		ADDED from C:\Users\SomeoneElse\Desktop\owntracks-18-05-2018\android-master\project\app\src\main\AndroidManifest.xml:202:25-63
+action#android.location.MODE_CHANGED
+ADDED from C:\Users\SomeoneElse\Desktop\owntracks-18-05-2018\android-master\project\app\src\main\AndroidManifest.xml:204:17-72
+	android:name
+		ADDED from C:\Users\SomeoneElse\Desktop\owntracks-18-05-2018\android-master\project\app\src\main\AndroidManifest.xml:204:25-69
+action#android.location.PROVIDERS_CHANGED
+ADDED from C:\Users\SomeoneElse\Desktop\owntracks-18-05-2018\android-master\project\app\src\main\AndroidManifest.xml:205:17-77
+	android:name
+		ADDED from C:\Users\SomeoneElse\Desktop\owntracks-18-05-2018\android-master\project\app\src\main\AndroidManifest.xml:205:25-74
+activity#org.owntracks.android.ui.status.StatusActivity
+ADDED from C:\Users\SomeoneElse\Desktop\owntracks-18-05-2018\android-master\project\app\src\main\AndroidManifest.xml:209:9-218:20
+	android:label
+		ADDED from C:\Users\SomeoneElse\Desktop\owntracks-18-05-2018\android-master\project\app\src\main\AndroidManifest.xml:212:13-58
+	android:parentActivityName
+		ADDED from C:\Users\SomeoneElse\Desktop\owntracks-18-05-2018\android-master\project\app\src\main\AndroidManifest.xml:214:13-61
+	android:launchMode
+		ADDED from C:\Users\SomeoneElse\Desktop\owntracks-18-05-2018\android-master\project\app\src\main\AndroidManifest.xml:213:13-43
+	android:exported
+		ADDED from C:\Users\SomeoneElse\Desktop\owntracks-18-05-2018\android-master\project\app\src\main\AndroidManifest.xml:211:13-36
+	android:name
+		ADDED from C:\Users\SomeoneElse\Desktop\owntracks-18-05-2018\android-master\project\app\src\main\AndroidManifest.xml:210:13-53
+activity#org.owntracks.android.ui.contacts.ContactsActivity
+ADDED from C:\Users\SomeoneElse\Desktop\owntracks-18-05-2018\android-master\project\app\src\main\AndroidManifest.xml:219:9-223:47
+	android:clearTaskOnLaunch
+		ADDED from C:\Users\SomeoneElse\Desktop\owntracks-18-05-2018\android-master\project\app\src\main\AndroidManifest.xml:221:13-45
+	android:label
+		ADDED from C:\Users\SomeoneElse\Desktop\owntracks-18-05-2018\android-master\project\app\src\main\AndroidManifest.xml:222:13-60
+	android:launchMode
+		ADDED from C:\Users\SomeoneElse\Desktop\owntracks-18-05-2018\android-master\project\app\src\main\AndroidManifest.xml:223:13-44
+	android:name
+		ADDED from C:\Users\SomeoneElse\Desktop\owntracks-18-05-2018\android-master\project\app\src\main\AndroidManifest.xml:220:13-57
+activity#org.owntracks.android.ui.map.MapActivity
+ADDED from C:\Users\SomeoneElse\Desktop\owntracks-18-05-2018\android-master\project\app\src\main\AndroidManifest.xml:224:9-236:20
+	android:clearTaskOnLaunch
+		ADDED from C:\Users\SomeoneElse\Desktop\owntracks-18-05-2018\android-master\project\app\src\main\AndroidManifest.xml:226:13-45
+	android:label
+		ADDED from C:\Users\SomeoneElse\Desktop\owntracks-18-05-2018\android-master\project\app\src\main\AndroidManifest.xml:227:13-29
+	android:launchMode
+		ADDED from C:\Users\SomeoneElse\Desktop\owntracks-18-05-2018\android-master\project\app\src\main\AndroidManifest.xml:228:13-44
+	android:name
+		ADDED from C:\Users\SomeoneElse\Desktop\owntracks-18-05-2018\android-master\project\app\src\main\AndroidManifest.xml:225:13-47
+intent-filter#android.intent.action.SEND+android.intent.category.DEFAULT
+ADDED from C:\Users\SomeoneElse\Desktop\owntracks-18-05-2018\android-master\project\app\src\main\AndroidManifest.xml:229:13-235:29
+action#android.intent.action.SEND
+ADDED from C:\Users\SomeoneElse\Desktop\owntracks-18-05-2018\android-master\project\app\src\main\AndroidManifest.xml:230:17-69
+	android:name
+		ADDED from C:\Users\SomeoneElse\Desktop\owntracks-18-05-2018\android-master\project\app\src\main\AndroidManifest.xml:230:25-66
+activity#org.owntracks.android.activities.ActivityWelcome
+ADDED from C:\Users\SomeoneElse\Desktop\owntracks-18-05-2018\android-master\project\app\src\main\AndroidManifest.xml:237:9-249:20
+	android:screenOrientation
+		ADDED from C:\Users\SomeoneElse\Desktop\owntracks-18-05-2018\android-master\project\app\src\main\AndroidManifest.xml:241:13-49
+	android:label
+		ADDED from C:\Users\SomeoneElse\Desktop\owntracks-18-05-2018\android-master\project\app\src\main\AndroidManifest.xml:240:13-45
+	android:configChanges
+		ADDED from C:\Users\SomeoneElse\Desktop\owntracks-18-05-2018\android-master\project\app\src\main\AndroidManifest.xml:239:13-63
+	android:name
+		ADDED from C:\Users\SomeoneElse\Desktop\owntracks-18-05-2018\android-master\project\app\src\main\AndroidManifest.xml:238:13-55
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from C:\Users\SomeoneElse\Desktop\owntracks-18-05-2018\android-master\project\app\src\main\AndroidManifest.xml:243:13-247:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\SomeoneElse\Desktop\owntracks-18-05-2018\android-master\project\app\src\main\AndroidManifest.xml:244:17-69
+	android:name
+		ADDED from C:\Users\SomeoneElse\Desktop\owntracks-18-05-2018\android-master\project\app\src\main\AndroidManifest.xml:244:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\SomeoneElse\Desktop\owntracks-18-05-2018\android-master\project\app\src\main\AndroidManifest.xml:246:17-77
+	android:name
+		ADDED from C:\Users\SomeoneElse\Desktop\owntracks-18-05-2018\android-master\project\app\src\main\AndroidManifest.xml:246:27-74
+activity#org.owntracks.android.activities.Notifications
+ADDED from C:\Users\SomeoneElse\Desktop\owntracks-18-05-2018\android-master\project\app\src\main\AndroidManifest.xml:250:9-62
+	android:name
+		ADDED from C:\Users\SomeoneElse\Desktop\owntracks-18-05-2018\android-master\project\app\src\main\AndroidManifest.xml:250:19-59
+uses-sdk
+INJECTED from C:\Users\SomeoneElse\Desktop\owntracks-18-05-2018\android-master\project\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.google.android.gms:play-services-gcm:10.2.6] C:\Users\SomeoneElse\.android\build-cache\05472c4ef47c55f918a4c89f5cb1a1853943e705\output\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-iid:10.2.6] C:\Users\SomeoneElse\.android\build-cache\5a45df476f74f29b1c6a3927d4ff50a44a941aa5\output\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-location:10.2.6] C:\Users\SomeoneElse\.android\build-cache\b7590901db224bd28e298200d18d80819917fd95\output\AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-places:10.2.6] C:\Users\SomeoneElse\.android\build-cache\49eb15ab96e8fc28b458b390c64dc985ca1b08cb\output\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-maps:10.2.6] C:\Users\SomeoneElse\.android\build-cache\6b558091291eb0c5b3d23e63f97119429269010a\output\AndroidManifest.xml:23:5-43
+MERGED from [com.google.android.gms:play-services-base:10.2.6] C:\Users\SomeoneElse\.android\build-cache\9a54b704f469f2aa0144060f9faac43c1a22965d\output\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-tasks:10.2.6] C:\Users\SomeoneElse\.android\build-cache\547c57bc9f78bfa1f16b6a56f554dd6391b05277\output\AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-basement:10.2.6] C:\Users\SomeoneElse\.android\build-cache\f0da2b0043ef965f2a41f91c7cdf033cbb8c003a\output\AndroidManifest.xml:17:5-43
+MERGED from [org.altbeacon:android-beacon-library:2.10] C:\Users\SomeoneElse\.android\build-cache\4bc8ecc87432ad16d06e83f0272cde515f2986e8\output\AndroidManifest.xml:7:5-9:41
+MERGED from [com.jakewharton.timber:timber:4.1.2] C:\Users\SomeoneElse\.android\build-cache\e69855b3fd6f26d7b15ca613a1c85f7b756bc333\output\AndroidManifest.xml:6:5-44
+MERGED from [com.rengwuxian.materialedittext:library:2.1.4] C:\Users\SomeoneElse\.android\build-cache\8b9a45712691f61af1a53a412d34ef8f9111f9cc\output\AndroidManifest.xml:6:5-8:41
+MERGED from [com.afollestad.material-dialogs:commons:0.9.4.5] C:\Users\SomeoneElse\.android\build-cache\49cf2d419797faca630d71a51905626549593ab2\output\AndroidManifest.xml:8:5-10:41
+MERGED from [com.afollestad.material-dialogs:core:0.9.4.5] C:\Users\SomeoneElse\.android\build-cache\6a3247a295727aa1132866fe23e8fae94b9005ed\output\AndroidManifest.xml:8:5-11:75
+MERGED from [com.android.support:support-v13:25.3.1] C:\Users\SomeoneElse\.android\build-cache\fe1422fd71bb803466da6ab437eefb394c1a51ef\output\AndroidManifest.xml:21:5-23:55
+MERGED from [me.zhanghai.android.materialprogressbar:library:1.4.1] C:\Users\SomeoneElse\.android\build-cache\1e5662bc7613be67d15580c80351bed74da7ccfa\output\AndroidManifest.xml:12:5-14:41
+MERGED from [com.mikepenz:materialdrawer:5.9.1] C:\Users\SomeoneElse\.android\build-cache\d769fb52ebb2b69f253901f8f4ec60b4b71e9410\output\AndroidManifest.xml:8:5-10:41
+MERGED from [com.android.support:design:25.3.1] C:\Users\SomeoneElse\.android\build-cache\ae11c9c902daf92d2f94cec23099d92d05fab979\output\AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\SomeoneElse\.android\build-cache\7598df5d54b3edb986367fa4c4205e83ba950ceb\output\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\SomeoneElse\.android\build-cache\449aecad067c167d454488c410d70bb2cd7d23a8\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\SomeoneElse\.android\build-cache\31ef5cb2dbaf154a54746c0096e5bbfd56eaaad2\output\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:recyclerview-v7:25.3.1] C:\Users\SomeoneElse\.android\build-cache\72afc44f34db8895b471db53b94d1a3e754f4b1c\output\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:transition:25.3.1] C:\Users\SomeoneElse\.android\build-cache\eb23479a0f6439ee5932e717e42840e1efd326ce\output\AndroidManifest.xml:20:5-44
+MERGED from [com.mikepenz:iconics-core:2.8.4] C:\Users\SomeoneElse\.android\build-cache\ef77b529fa34c275e41418b673b5b597180c146f\output\AndroidManifest.xml:8:5-10:41
+MERGED from [com.mikepenz:fastadapter:2.5.2] C:\Users\SomeoneElse\.android\build-cache\75383cf2e958c9fba56da9801f46923dbe7c301e\output\AndroidManifest.xml:8:5-10:41
+MERGED from [com.mikepenz:materialize:1.0.1] C:\Users\SomeoneElse\.android\build-cache\cee84eaa78e1f826b20f680430870d123e971e2a\output\AndroidManifest.xml:8:5-10:41
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\SomeoneElse\.android\build-cache\50b915cc5cff50aaa0e6444e7321c0ccfc89e4c4\output\AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.clans:fab:1.6.4] C:\Users\SomeoneElse\.android\build-cache\f393847f360370fe71491382ad5546701e267fe8\output\AndroidManifest.xml:8:5-10:41
+MERGED from [com.android.databinding:adapters:1.3.1] C:\Users\SomeoneElse\.android\build-cache\0a04ac351d661e3a4ea56fc124e99cffbac4f6ae\output\AndroidManifest.xml:22:5-24:41
+MERGED from [com.android.databinding:library:1.3.1] C:\Users\SomeoneElse\.android\build-cache\d30a77347181116b8bed979045e25fe7a13ab2cb\output\AndroidManifest.xml:22:5-24:41
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\SomeoneElse\.android\build-cache\7d1b03b23e7a72cae127282e85e675b418d617f0\output\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\SomeoneElse\.android\build-cache\204dcd2206163b031055a979794c15812d032864\output\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\SomeoneElse\.android\build-cache\c53a9b2656a5980c8d34e87e41204744e6c1511d\output\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\SomeoneElse\.android\build-cache\de0a13e2dd71eede4a32e81643290103edf506a6\output\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\SomeoneElse\.android\build-cache\d875e492fee8a0f9db2a68739555182da8962d51\output\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\SomeoneElse\.android\build-cache\e49cb8d591c5c856b36c90b61c0fddf33662f18a\output\AndroidManifest.xml:21:5-23:58
+	tools:overrideLibrary
+		ADDED from [com.afollestad.material-dialogs:core:0.9.4.5] C:\Users\SomeoneElse\.android\build-cache\6a3247a295727aa1132866fe23e8fae94b9005ed\output\AndroidManifest.xml:11:9-72
+	android:targetSdkVersion
+		INJECTED from C:\Users\SomeoneElse\Desktop\owntracks-18-05-2018\android-master\project\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\SomeoneElse\Desktop\owntracks-18-05-2018\android-master\project\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\SomeoneElse\Desktop\owntracks-18-05-2018\android-master\project\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\SomeoneElse\Desktop\owntracks-18-05-2018\android-master\project\app\src\main\AndroidManifest.xml
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from [com.google.android.gms:play-services-gcm:10.2.6] C:\Users\SomeoneElse\.android\build-cache\05472c4ef47c55f918a4c89f5cb1a1853943e705\output\AndroidManifest.xml:20:5-81
+MERGED from [com.google.android.gms:play-services-iid:10.2.6] C:\Users\SomeoneElse\.android\build-cache\5a45df476f74f29b1c6a3927d4ff50a44a941aa5\output\AndroidManifest.xml:20:5-81
+	android:name
+		ADDED from [com.google.android.gms:play-services-gcm:10.2.6] C:\Users\SomeoneElse\.android\build-cache\05472c4ef47c55f918a4c89f5cb1a1853943e705\output\AndroidManifest.xml:20:22-79
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:10.2.6] C:\Users\SomeoneElse\.android\build-cache\9a54b704f469f2aa0144060f9faac43c1a22965d\output\AndroidManifest.xml:19:9-172
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:10.2.6] C:\Users\SomeoneElse\.android\build-cache\9a54b704f469f2aa0144060f9faac43c1a22965d\output\AndroidManifest.xml:19:146-170
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:10.2.6] C:\Users\SomeoneElse\.android\build-cache\9a54b704f469f2aa0144060f9faac43c1a22965d\output\AndroidManifest.xml:19:86-145
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:10.2.6] C:\Users\SomeoneElse\.android\build-cache\9a54b704f469f2aa0144060f9faac43c1a22965d\output\AndroidManifest.xml:19:19-85
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:10.2.6] C:\Users\SomeoneElse\.android\build-cache\f0da2b0043ef965f2a41f91c7cdf033cbb8c003a\output\AndroidManifest.xml:20:9-121
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:10.2.6] C:\Users\SomeoneElse\.android\build-cache\f0da2b0043ef965f2a41f91c7cdf033cbb8c003a\output\AndroidManifest.xml:20:66-119
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:10.2.6] C:\Users\SomeoneElse\.android\build-cache\f0da2b0043ef965f2a41f91c7cdf033cbb8c003a\output\AndroidManifest.xml:20:20-65
+uses-permission-sdk-23
+ADDED from [org.altbeacon:android-beacon-library:2.10] C:\Users\SomeoneElse\.android\build-cache\4bc8ecc87432ad16d06e83f0272cde515f2986e8\output\AndroidManifest.xml:19:5-88
+	android:name
+		ADDED from [org.altbeacon:android-beacon-library:2.10] C:\Users\SomeoneElse\.android\build-cache\4bc8ecc87432ad16d06e83f0272cde515f2986e8\output\AndroidManifest.xml:19:29-85
+receiver#org.altbeacon.beacon.startup.StartupBroadcastReceiver
+ADDED from [org.altbeacon:android-beacon-library:2.10] C:\Users\SomeoneElse\.android\build-cache\4bc8ecc87432ad16d06e83f0272cde515f2986e8\output\AndroidManifest.xml:22:9-28:20
+	android:name
+		ADDED from [org.altbeacon:android-beacon-library:2.10] C:\Users\SomeoneElse\.android\build-cache\4bc8ecc87432ad16d06e83f0272cde515f2986e8\output\AndroidManifest.xml:22:19-87
+intent-filter#android.intent.action.ACTION_POWER_CONNECTED+android.intent.action.ACTION_POWER_DISCONNECTED+android.intent.action.BOOT_COMPLETED
+ADDED from [org.altbeacon:android-beacon-library:2.10] C:\Users\SomeoneElse\.android\build-cache\4bc8ecc87432ad16d06e83f0272cde515f2986e8\output\AndroidManifest.xml:23:13-27:29
+action#android.intent.action.ACTION_POWER_CONNECTED
+ADDED from [org.altbeacon:android-beacon-library:2.10] C:\Users\SomeoneElse\.android\build-cache\4bc8ecc87432ad16d06e83f0272cde515f2986e8\output\AndroidManifest.xml:25:17-87
+	android:name
+		ADDED from [org.altbeacon:android-beacon-library:2.10] C:\Users\SomeoneElse\.android\build-cache\4bc8ecc87432ad16d06e83f0272cde515f2986e8\output\AndroidManifest.xml:25:25-84
+action#android.intent.action.ACTION_POWER_DISCONNECTED
+ADDED from [org.altbeacon:android-beacon-library:2.10] C:\Users\SomeoneElse\.android\build-cache\4bc8ecc87432ad16d06e83f0272cde515f2986e8\output\AndroidManifest.xml:26:17-90
+	android:name
+		ADDED from [org.altbeacon:android-beacon-library:2.10] C:\Users\SomeoneElse\.android\build-cache\4bc8ecc87432ad16d06e83f0272cde515f2986e8\output\AndroidManifest.xml:26:25-87
+service#org.altbeacon.beacon.service.BeaconService
+ADDED from [org.altbeacon:android-beacon-library:2.10] C:\Users\SomeoneElse\.android\build-cache\4bc8ecc87432ad16d06e83f0272cde515f2986e8\output\AndroidManifest.xml:30:9-35:38
+	android:enabled
+		ADDED from [org.altbeacon:android-beacon-library:2.10] C:\Users\SomeoneElse\.android\build-cache\4bc8ecc87432ad16d06e83f0272cde515f2986e8\output\AndroidManifest.xml:32:13-35
+	android:label
+		ADDED from [org.altbeacon:android-beacon-library:2.10] C:\Users\SomeoneElse\.android\build-cache\4bc8ecc87432ad16d06e83f0272cde515f2986e8\output\AndroidManifest.xml:35:13-35
+	android:exported
+		ADDED from [org.altbeacon:android-beacon-library:2.10] C:\Users\SomeoneElse\.android\build-cache\4bc8ecc87432ad16d06e83f0272cde515f2986e8\output\AndroidManifest.xml:33:13-37
+	android:isolatedProcess
+		ADDED from [org.altbeacon:android-beacon-library:2.10] C:\Users\SomeoneElse\.android\build-cache\4bc8ecc87432ad16d06e83f0272cde515f2986e8\output\AndroidManifest.xml:34:13-44
+	android:name
+		ADDED from [org.altbeacon:android-beacon-library:2.10] C:\Users\SomeoneElse\.android\build-cache\4bc8ecc87432ad16d06e83f0272cde515f2986e8\output\AndroidManifest.xml:31:13-70
+service#org.altbeacon.beacon.BeaconIntentProcessor
+ADDED from [org.altbeacon:android-beacon-library:2.10] C:\Users\SomeoneElse\.android\build-cache\4bc8ecc87432ad16d06e83f0272cde515f2986e8\output\AndroidManifest.xml:36:9-39:40
+	android:enabled
+		ADDED from [org.altbeacon:android-beacon-library:2.10] C:\Users\SomeoneElse\.android\build-cache\4bc8ecc87432ad16d06e83f0272cde515f2986e8\output\AndroidManifest.xml:38:13-35
+	android:exported
+		ADDED from [org.altbeacon:android-beacon-library:2.10] C:\Users\SomeoneElse\.android\build-cache\4bc8ecc87432ad16d06e83f0272cde515f2986e8\output\AndroidManifest.xml:39:13-37
+	android:name
+		ADDED from [org.altbeacon:android-beacon-library:2.10] C:\Users\SomeoneElse\.android\build-cache\4bc8ecc87432ad16d06e83f0272cde515f2986e8\output\AndroidManifest.xml:37:13-70
+meta-data#android.support.VERSION
+ADDED from [com.android.support:support-v13:25.3.1] C:\Users\SomeoneElse\.android\build-cache\fe1422fd71bb803466da6ab437eefb394c1a51ef\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:design:25.3.1] C:\Users\SomeoneElse\.android\build-cache\ae11c9c902daf92d2f94cec23099d92d05fab979\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\SomeoneElse\.android\build-cache\7598df5d54b3edb986367fa4c4205e83ba950ceb\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\SomeoneElse\.android\build-cache\449aecad067c167d454488c410d70bb2cd7d23a8\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\SomeoneElse\.android\build-cache\31ef5cb2dbaf154a54746c0096e5bbfd56eaaad2\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:recyclerview-v7:25.3.1] C:\Users\SomeoneElse\.android\build-cache\72afc44f34db8895b471db53b94d1a3e754f4b1c\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:transition:25.3.1] C:\Users\SomeoneElse\.android\build-cache\eb23479a0f6439ee5932e717e42840e1efd326ce\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\SomeoneElse\.android\build-cache\7d1b03b23e7a72cae127282e85e675b418d617f0\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\SomeoneElse\.android\build-cache\204dcd2206163b031055a979794c15812d032864\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\SomeoneElse\.android\build-cache\c53a9b2656a5980c8d34e87e41204744e6c1511d\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\SomeoneElse\.android\build-cache\de0a13e2dd71eede4a32e81643290103edf506a6\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\SomeoneElse\.android\build-cache\d875e492fee8a0f9db2a68739555182da8962d51\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\SomeoneElse\.android\build-cache\e49cb8d591c5c856b36c90b61c0fddf33662f18a\output\AndroidManifest.xml:25:5-27:34
+	android:value
+		ADDED from [com.android.support:support-v13:25.3.1] C:\Users\SomeoneElse\.android\build-cache\fe1422fd71bb803466da6ab437eefb394c1a51ef\output\AndroidManifest.xml:27:9-31
+	android:name
+		ADDED from [com.android.support:support-v13:25.3.1] C:\Users\SomeoneElse\.android\build-cache\fe1422fd71bb803466da6ab437eefb394c1a51ef\output\AndroidManifest.xml:26:9-47

@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="Gradle: com.android.databinding:library-1.3.1">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.android/build-cache/d30a77347181116b8bed979045e25fe7a13ab2cb/output/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.android/build-cache/d30a77347181116b8bed979045e25fe7a13ab2cb/output/res" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/AppData/Local/Android/Sdk/extras/android/m2repository/com/android/databinding/library/1.3.1/library-1.3.1-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/AppData/Local/Android/Sdk/extras/android/m2repository/com/android/databinding/library/1.3.1/library-1.3.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
