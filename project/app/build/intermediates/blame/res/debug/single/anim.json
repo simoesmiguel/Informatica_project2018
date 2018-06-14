@@ -1,0 +1,114 @@
+[
+    {
+        "merged": "C:\\Users\\SomeoneElse\\Desktop\\owntracks-18-05-2018\\android-master\\project\\app\\build\\intermediates\\res\\merged\\debug\\anim\\push_up_in.xml",
+        "source": "C:\\Users\\SomeoneElse\\Desktop\\owntracks-18-05-2018\\android-master\\project\\app\\src\\main\\res\\anim\\push_up_in.xml"
+    },
+    {
+        "merged": "C:\\Users\\SomeoneElse\\Desktop\\owntracks-18-05-2018\\android-master\\project\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_in_bottom.xml",
+        "source": "C:\\Users\\SomeoneElse\\.android\\build-cache\\7598df5d54b3edb986367fa4c4205e83ba950ceb\\output\\res\\anim\\abc_slide_in_bottom.xml"
+    },
+    {
+        "merged": "C:\\Users\\SomeoneElse\\Desktop\\owntracks-18-05-2018\\android-master\\project\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_bottom_sheet_slide_in.xml",
+        "source": "C:\\Users\\SomeoneElse\\.android\\build-cache\\ae11c9c902daf92d2f94cec23099d92d05fab979\\output\\res\\anim\\design_bottom_sheet_slide_in.xml"
+    },
+    {
+        "merged": "C:\\Users\\SomeoneElse\\Desktop\\owntracks-18-05-2018\\android-master\\project\\app\\build\\intermediates\\res\\merged\\debug\\anim\\fab_slide_in_from_right.xml",
+        "source": "C:\\Users\\SomeoneElse\\.android\\build-cache\\f393847f360370fe71491382ad5546701e267fe8\\output\\res\\anim\\fab_slide_in_from_right.xml"
+    },
+    {
+        "merged": "C:\\Users\\SomeoneElse\\Desktop\\owntracks-18-05-2018\\android-master\\project\\app\\build\\intermediates\\res\\merged\\debug\\anim\\popup_exit.xml",
+        "source": "C:\\Users\\SomeoneElse\\.android\\build-cache\\6a3247a295727aa1132866fe23e8fae94b9005ed\\output\\res\\anim\\popup_exit.xml"
+    },
+    {
+        "merged": "C:\\Users\\SomeoneElse\\Desktop\\owntracks-18-05-2018\\android-master\\project\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_popup_exit.xml",
+        "source": "C:\\Users\\SomeoneElse\\.android\\build-cache\\7598df5d54b3edb986367fa4c4205e83ba950ceb\\output\\res\\anim\\abc_popup_exit.xml"
+    },
+    {
+        "merged": "C:\\Users\\SomeoneElse\\Desktop\\owntracks-18-05-2018\\android-master\\project\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_fade_out.xml",
+        "source": "C:\\Users\\SomeoneElse\\.android\\build-cache\\7598df5d54b3edb986367fa4c4205e83ba950ceb\\output\\res\\anim\\abc_fade_out.xml"
+    },
+    {
+        "merged": "C:\\Users\\SomeoneElse\\Desktop\\owntracks-18-05-2018\\android-master\\project\\app\\build\\intermediates\\res\\merged\\debug\\anim\\popup_enter.xml",
+        "source": "C:\\Users\\SomeoneElse\\.android\\build-cache\\6a3247a295727aa1132866fe23e8fae94b9005ed\\output\\res\\anim\\popup_enter.xml"
+    },
+    {
+        "merged": "C:\\Users\\SomeoneElse\\Desktop\\owntracks-18-05-2018\\android-master\\project\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_popup_enter.xml",
+        "source": "C:\\Users\\SomeoneElse\\.android\\build-cache\\7598df5d54b3edb986367fa4c4205e83ba950ceb\\output\\res\\anim\\abc_popup_enter.xml"
+    },
+    {
+        "merged": "C:\\Users\\SomeoneElse\\Desktop\\owntracks-18-05-2018\\android-master\\project\\app\\build\\intermediates\\res\\merged\\debug\\anim\\fab_slide_in_from_left.xml",
+        "source": "C:\\Users\\SomeoneElse\\.android\\build-cache\\f393847f360370fe71491382ad5546701e267fe8\\output\\res\\anim\\fab_slide_in_from_left.xml"
+    },
+    {
+        "merged": "C:\\Users\\SomeoneElse\\Desktop\\owntracks-18-05-2018\\android-master\\project\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_out_top.xml",
+        "source": "C:\\Users\\SomeoneElse\\.android\\build-cache\\7598df5d54b3edb986367fa4c4205e83ba950ceb\\output\\res\\anim\\abc_slide_out_top.xml"
+    },
+    {
+        "merged": "C:\\Users\\SomeoneElse\\Desktop\\owntracks-18-05-2018\\android-master\\project\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_bottom_sheet_slide_out.xml",
+        "source": "C:\\Users\\SomeoneElse\\.android\\build-cache\\ae11c9c902daf92d2f94cec23099d92d05fab979\\output\\res\\anim\\design_bottom_sheet_slide_out.xml"
+    },
+    {
+        "merged": "C:\\Users\\SomeoneElse\\Desktop\\owntracks-18-05-2018\\android-master\\project\\app\\build\\intermediates\\res\\merged\\debug\\anim\\fab_slide_out_to_left.xml",
+        "source": "C:\\Users\\SomeoneElse\\.android\\build-cache\\f393847f360370fe71491382ad5546701e267fe8\\output\\res\\anim\\fab_slide_out_to_left.xml"
+    },
+    {
+        "merged": "C:\\Users\\SomeoneElse\\Desktop\\owntracks-18-05-2018\\android-master\\project\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_out_bottom.xml",
+        "source": "C:\\Users\\SomeoneElse\\.android\\build-cache\\7598df5d54b3edb986367fa4c4205e83ba950ceb\\output\\res\\anim\\abc_slide_out_bottom.xml"
+    },
+    {
+        "merged": "C:\\Users\\SomeoneElse\\Desktop\\owntracks-18-05-2018\\android-master\\project\\app\\build\\intermediates\\res\\merged\\debug\\anim\\push_down_out.xml",
+        "source": "C:\\Users\\SomeoneElse\\Desktop\\owntracks-18-05-2018\\android-master\\project\\app\\src\\main\\res\\anim\\push_down_out.xml"
+    },
+    {
+        "merged": "C:\\Users\\SomeoneElse\\Desktop\\owntracks-18-05-2018\\android-master\\project\\app\\build\\intermediates\\res\\merged\\debug\\anim\\decelerate_cubic.xml",
+        "source": "C:\\Users\\SomeoneElse\\.android\\build-cache\\6a3247a295727aa1132866fe23e8fae94b9005ed\\output\\res\\anim\\decelerate_cubic.xml"
+    },
+    {
+        "merged": "C:\\Users\\SomeoneElse\\Desktop\\owntracks-18-05-2018\\android-master\\project\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_snackbar_out.xml",
+        "source": "C:\\Users\\SomeoneElse\\.android\\build-cache\\ae11c9c902daf92d2f94cec23099d92d05fab979\\output\\res\\anim\\design_snackbar_out.xml"
+    },
+    {
+        "merged": "C:\\Users\\SomeoneElse\\Desktop\\owntracks-18-05-2018\\android-master\\project\\app\\build\\intermediates\\res\\merged\\debug\\anim\\fab_scale_down.xml",
+        "source": "C:\\Users\\SomeoneElse\\.android\\build-cache\\f393847f360370fe71491382ad5546701e267fe8\\output\\res\\anim\\fab_scale_down.xml"
+    },
+    {
+        "merged": "C:\\Users\\SomeoneElse\\Desktop\\owntracks-18-05-2018\\android-master\\project\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_snackbar_in.xml",
+        "source": "C:\\Users\\SomeoneElse\\.android\\build-cache\\ae11c9c902daf92d2f94cec23099d92d05fab979\\output\\res\\anim\\design_snackbar_in.xml"
+    },
+    {
+        "merged": "C:\\Users\\SomeoneElse\\Desktop\\owntracks-18-05-2018\\android-master\\project\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_fab_out.xml",
+        "source": "C:\\Users\\SomeoneElse\\.android\\build-cache\\ae11c9c902daf92d2f94cec23099d92d05fab979\\output\\res\\anim\\design_fab_out.xml"
+    },
+    {
+        "merged": "C:\\Users\\SomeoneElse\\Desktop\\owntracks-18-05-2018\\android-master\\project\\app\\build\\intermediates\\res\\merged\\debug\\anim\\fab_slide_out_to_right.xml",
+        "source": "C:\\Users\\SomeoneElse\\.android\\build-cache\\f393847f360370fe71491382ad5546701e267fe8\\output\\res\\anim\\fab_slide_out_to_right.xml"
+    },
+    {
+        "merged": "C:\\Users\\SomeoneElse\\Desktop\\owntracks-18-05-2018\\android-master\\project\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_shrink_fade_out_from_bottom.xml",
+        "source": "C:\\Users\\SomeoneElse\\.android\\build-cache\\7598df5d54b3edb986367fa4c4205e83ba950ceb\\output\\res\\anim\\abc_shrink_fade_out_from_bottom.xml"
+    },
+    {
+        "merged": "C:\\Users\\SomeoneElse\\Desktop\\owntracks-18-05-2018\\android-master\\project\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_in_top.xml",
+        "source": "C:\\Users\\SomeoneElse\\.android\\build-cache\\7598df5d54b3edb986367fa4c4205e83ba950ceb\\output\\res\\anim\\abc_slide_in_top.xml"
+    },
+    {
+        "merged": "C:\\Users\\SomeoneElse\\Desktop\\owntracks-18-05-2018\\android-master\\project\\app\\build\\intermediates\\res\\merged\\debug\\anim\\fab_scale_up.xml",
+        "source": "C:\\Users\\SomeoneElse\\.android\\build-cache\\f393847f360370fe71491382ad5546701e267fe8\\output\\res\\anim\\fab_scale_up.xml"
+    },
+    {
+        "merged": "C:\\Users\\SomeoneElse\\Desktop\\owntracks-18-05-2018\\android-master\\project\\app\\build\\intermediates\\res\\merged\\debug\\anim\\none.xml",
+        "source": "C:\\Users\\SomeoneElse\\Desktop\\owntracks-18-05-2018\\android-master\\project\\app\\src\\main\\res\\anim\\none.xml"
+    },
+    {
+        "merged": "C:\\Users\\SomeoneElse\\Desktop\\owntracks-18-05-2018\\android-master\\project\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_grow_fade_in_from_bottom.xml",
+        "source": "C:\\Users\\SomeoneElse\\.android\\build-cache\\7598df5d54b3edb986367fa4c4205e83ba950ceb\\output\\res\\anim\\abc_grow_fade_in_from_bottom.xml"
+    },
+    {
+        "merged": "C:\\Users\\SomeoneElse\\Desktop\\owntracks-18-05-2018\\android-master\\project\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_fade_in.xml",
+        "source": "C:\\Users\\SomeoneElse\\.android\\build-cache\\7598df5d54b3edb986367fa4c4205e83ba950ceb\\output\\res\\anim\\abc_fade_in.xml"
+    },
+    {
+        "merged": "C:\\Users\\SomeoneElse\\Desktop\\owntracks-18-05-2018\\android-master\\project\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_fab_in.xml",
+        "source": "C:\\Users\\SomeoneElse\\.android\\build-cache\\ae11c9c902daf92d2f94cec23099d92d05fab979\\output\\res\\anim\\design_fab_in.xml"
+    }
+]

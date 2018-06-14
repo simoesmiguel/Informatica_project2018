@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "C:\\Users\\SomeoneElse\\Desktop\\owntracks-18-05-2018\\android-master\\project\\app\\build\\intermediates\\res\\merged\\debug\\xml\\preferences_root.xml",
+        "source": "C:\\Users\\SomeoneElse\\Desktop\\owntracks-18-05-2018\\android-master\\project\\app\\src\\main\\res\\xml\\preferences_root.xml"
+    },
+    {
+        "merged": "C:\\Users\\SomeoneElse\\Desktop\\owntracks-18-05-2018\\android-master\\project\\app\\build\\intermediates\\res\\merged\\debug\\xml\\preferences_private_connection.xml",
+        "source": "C:\\Users\\SomeoneElse\\Desktop\\owntracks-18-05-2018\\android-master\\project\\app\\src\\main\\res\\xml\\preferences_private_connection.xml"
+    },
+    {
+        "merged": "C:\\Users\\SomeoneElse\\Desktop\\owntracks-18-05-2018\\android-master\\project\\app\\build\\intermediates\\res\\merged\\debug\\xml\\filepaths.xml",
+        "source": "C:\\Users\\SomeoneElse\\Desktop\\owntracks-18-05-2018\\android-master\\project\\app\\src\\main\\res\\xml\\filepaths.xml"
+    },
+    {
+        "merged": "C:\\Users\\SomeoneElse\\Desktop\\owntracks-18-05-2018\\android-master\\project\\app\\build\\intermediates\\res\\merged\\debug\\xml\\network_security_config.xml",
+        "source": "C:\\Users\\SomeoneElse\\Desktop\\owntracks-18-05-2018\\android-master\\project\\app\\src\\main\\res\\xml\\network_security_config.xml"
+    },
+    {
+        "merged": "C:\\Users\\SomeoneElse\\Desktop\\owntracks-18-05-2018\\android-master\\project\\app\\build\\intermediates\\res\\merged\\debug\\xml\\preferences_http_connection.xml",
+        "source": "C:\\Users\\SomeoneElse\\Desktop\\owntracks-18-05-2018\\android-master\\project\\app\\src\\main\\res\\xml\\preferences_http_connection.xml"
+    },
+    {
+        "merged": "C:\\Users\\SomeoneElse\\Desktop\\owntracks-18-05-2018\\android-master\\project\\app\\build\\intermediates\\res\\merged\\debug\\xml\\preferences_public_connection.xml",
+        "source": "C:\\Users\\SomeoneElse\\Desktop\\owntracks-18-05-2018\\android-master\\project\\app\\src\\main\\res\\xml\\preferences_public_connection.xml"
+    }
+]

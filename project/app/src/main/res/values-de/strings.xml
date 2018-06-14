@@ -52,7 +52,7 @@
     <string name="description">Beschreibung</string>
     <string name="latitude">Breite</string>
     <string name="longitude">Länge</string>
-    <string name="radius">Radius</string>
+    <string name="radius">Radius (m)</string>
     <string name="addWaypoint">Region hinzufügen</string>
     <string name="export">Export</string>
     <string name="exportConfiguration">Exportieren</string>

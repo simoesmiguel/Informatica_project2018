@@ -1,5 +1,6 @@
 package org.owntracks.android.ui.map;
 
+import android.app.Notification;
 import android.app.PendingIntent;
 import android.content.BroadcastReceiver;
 import android.content.Context;
@@ -49,12 +50,30 @@ public class AlarmReceiver extends BroadcastReceiver {
                 JSONObject jo = new JSONObject(JSON);
                 address = jo.getString("address");
 
-                if(!address.equals("null") && !jo.getString("user_id").equals("null") ) {
-                    Intent seeNotifications = new Intent(context, Notifications.class);
-                    seeNotifications.putExtra("decodedMessage", address);
-                    seeNotifications.putExtra("id", jo.getString("user_id"));
-                    context.startActivity(seeNotifications);
-                }
+
+                 NotificationCompat.Builder mBuilder =
+                         (NotificationCompat.Builder) new NotificationCompat.Builder(context)
+                                 .setSmallIcon(R.drawable.cmiyc_icon_notif)
+                                 .setContentTitle("CMIYC")
+                                 .setContentText(new StringBuilder().append(intent.getExtras().getString("user_id")+" shared something with you!").toString())
+                                 .setDefaults(Notification.DEFAULT_SOUND)
+                                 .setDefaults(Notification.DEFAULT_VIBRATE)
+                                 .setAutoCancel(true);
+
+                 Intent notificationIntent = new Intent(context, Notifications.class);
+                 notificationIntent.setFlags(Intent.FLAG_ACTIVITY_SINGLE_TOP);
+
+
+                 notificationIntent.putExtra("decodedMessage",address);
+                 notificationIntent.putExtra("id",intent.getExtras().getString("user_id"));
+                 PendingIntent pendingIntent = PendingIntent.getActivity(context, 0, notificationIntent, PendingIntent.FLAG_UPDATE_CURRENT);
+                 mBuilder.setContentIntent(pendingIntent);
+
+                 NotificationManagerCompat notificationManager = NotificationManagerCompat.from(context);
+
+                 // notificationId is a unique int for each notification that you must define
+                 notificationManager.notify(Integer.parseInt( jo.getString("user_id")), mBuilder.build());
+
 
             } catch (JSONException e) {
                 e.printStackTrace();
@@ -83,8 +102,8 @@ public class AlarmReceiver extends BroadcastReceiver {
                                 .setSmallIcon(R.drawable.cmiyc_icon_notif)
                                 .setContentTitle("CMIYC")
                                 .setContentText(new StringBuilder().append(user_id).append(" shared a meetingPoint with you!").toString())
-                                .setVibrate(new long[] { 1000, 1000, 1000, 1000, 1000 })
-                                .setLights(Color.RED, 3000, 3000)
+                                .setDefaults(Notification.DEFAULT_SOUND)
+                                .setDefaults(Notification.DEFAULT_VIBRATE)
                                 .setAutoCancel(true);
 
 
@@ -108,7 +127,7 @@ public class AlarmReceiver extends BroadcastReceiver {
                 NotificationManagerCompat notificationManager = NotificationManagerCompat.from(context);
 
                 // notificationId is a unique int for each notification that you must define
-                notificationManager.notify(001, mBuilder.build());
+                notificationManager.notify(Integer.parseInt(jo.getString("user_id")), mBuilder.build());
 
 
             } catch (JSONException e) {
@@ -127,8 +146,8 @@ public class AlarmReceiver extends BroadcastReceiver {
                                 .setSmallIcon(R.drawable.cmiyc_icon_notif)
                                 .setContentTitle("CMIYC")
                                 .setContentText(new StringBuilder().append(name).append(" is close to you").toString())
-                                .setVibrate(new long[] { 1000, 1000, 1000, 1000, 1000 })
-                                .setLights(Color.RED, 3000, 3000)
+                                .setDefaults(Notification.DEFAULT_SOUND)
+                                .setDefaults(Notification.DEFAULT_VIBRATE)
                                 .setAutoCancel(true);
 
 

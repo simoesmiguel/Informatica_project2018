@@ -118,8 +118,12 @@ public class Notifications extends AppCompatActivity {
                 if(id!=null && decodedMessage!=null) {
                     //save to sharedPreferences
                     SharedPreferences.Editor editor = getSharedPreferences("com.example.newNotifications", MODE_PRIVATE).edit();
-                    set.add(id + " is at " + decodedMessage);
-                    editor.putStringSet("newNotificationSet", set);
+                    set.add(id + " " + decodedMessage);
+                   /* set.add("Miguel is at : Departamento de Engenharia Informática, Aveiro");
+                    set.add("Tiago is close to you ");
+                    set.add("Renata is at : Lisboa,Portugal ");
+                    set.add("Diogo is at : Viseu, Portugal");
+                    */editor.putStringSet("newNotificationSet", set);
                     editor.commit();
                 }
                 new_notifications = new ArrayList<>(set);

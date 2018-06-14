@@ -1,0 +1,50 @@
+[
+    {
+        "merged": "C:\\Users\\SomeoneElse\\Desktop\\owntracks-18-05-2018\\android-master\\project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi\\settings_icon.png",
+        "source": "C:\\Users\\SomeoneElse\\Desktop\\owntracks-18-05-2018\\android-master\\project\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\settings_icon.png"
+    },
+    {
+        "merged": "C:\\Users\\SomeoneElse\\Desktop\\owntracks-18-05-2018\\android-master\\project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi\\notifications.png",
+        "source": "C:\\Users\\SomeoneElse\\Desktop\\owntracks-18-05-2018\\android-master\\project\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\notifications.png"
+    },
+    {
+        "merged": "C:\\Users\\SomeoneElse\\Desktop\\owntracks-18-05-2018\\android-master\\project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi\\new_notifications_blue.png",
+        "source": "C:\\Users\\SomeoneElse\\Desktop\\owntracks-18-05-2018\\android-master\\project\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\new_notifications_blue.png"
+    },
+    {
+        "merged": "C:\\Users\\SomeoneElse\\Desktop\\owntracks-18-05-2018\\android-master\\project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi\\old_notifications_blue.png",
+        "source": "C:\\Users\\SomeoneElse\\Desktop\\owntracks-18-05-2018\\android-master\\project\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\old_notifications_blue.png"
+    },
+    {
+        "merged": "C:\\Users\\SomeoneElse\\Desktop\\owntracks-18-05-2018\\android-master\\project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi\\notifications_settings.png",
+        "source": "C:\\Users\\SomeoneElse\\Desktop\\owntracks-18-05-2018\\android-master\\project\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\notifications_settings.png"
+    },
+    {
+        "merged": "C:\\Users\\SomeoneElse\\Desktop\\owntracks-18-05-2018\\android-master\\project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi\\help_icon.png",
+        "source": "C:\\Users\\SomeoneElse\\Desktop\\owntracks-18-05-2018\\android-master\\project\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\help_icon.png"
+    },
+    {
+        "merged": "C:\\Users\\SomeoneElse\\Desktop\\owntracks-18-05-2018\\android-master\\project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi\\location_icon.png",
+        "source": "C:\\Users\\SomeoneElse\\Desktop\\owntracks-18-05-2018\\android-master\\project\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\location_icon.png"
+    },
+    {
+        "merged": "C:\\Users\\SomeoneElse\\Desktop\\owntracks-18-05-2018\\android-master\\project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi\\report_address.png",
+        "source": "C:\\Users\\SomeoneElse\\Desktop\\owntracks-18-05-2018\\android-master\\project\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\report_address.png"
+    },
+    {
+        "merged": "C:\\Users\\SomeoneElse\\Desktop\\owntracks-18-05-2018\\android-master\\project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi\\add_person_icon.png",
+        "source": "C:\\Users\\SomeoneElse\\Desktop\\owntracks-18-05-2018\\android-master\\project\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\add_person_icon.png"
+    },
+    {
+        "merged": "C:\\Users\\SomeoneElse\\Desktop\\owntracks-18-05-2018\\android-master\\project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi\\add_friend.png",
+        "source": "C:\\Users\\SomeoneElse\\Desktop\\owntracks-18-05-2018\\android-master\\project\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\add_friend.png"
+    },
+    {
+        "merged": "C:\\Users\\SomeoneElse\\Desktop\\owntracks-18-05-2018\\android-master\\project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi\\notifications_icon.png",
+        "source": "C:\\Users\\SomeoneElse\\Desktop\\owntracks-18-05-2018\\android-master\\project\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\notifications_icon.png"
+    },
+    {
+        "merged": "C:\\Users\\SomeoneElse\\Desktop\\owntracks-18-05-2018\\android-master\\project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi\\close.png",
+        "source": "C:\\Users\\SomeoneElse\\Desktop\\owntracks-18-05-2018\\android-master\\project\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\close.png"
+    }
+]
